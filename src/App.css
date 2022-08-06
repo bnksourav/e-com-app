@@ -1,0 +1,12 @@
+
+.All-item::-webkit-scrollbar{
+  display: none;
+}
+
+.All-item{
+    
+  height: 88vh;
+  overflow-x: auto;
+   overflow-y:scroll;
+ } 
+
