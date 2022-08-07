@@ -1,17 +1,17 @@
 import Product from './component/Product';
 import './App.css';
-import NavBar from './component/NavBar';
-import Cart from './component/Cart';
-import Auth from './component/Auth';
 import Checkout from './component/Checkout';
 import {BrowserRouter,Route,Routes} from "react-router-dom"
-import Conferm from './component/Conferm';
+import Conferm from './component/confermation';
+import store from './component/rexux/store';
+import { Provider } from  'react-redux';
 
 
 
 function App() {
   return (
     <>
+    <Provider store={store}>
       <BrowserRouter>
         <Routes>
         <Route path='/' element={<Product/>}/>
@@ -19,7 +19,7 @@ function App() {
           <Route path='/Conferm' element={<Conferm/>}/>
         </Routes>
       </BrowserRouter>
-      
+      </Provider>
       
     </>
   );

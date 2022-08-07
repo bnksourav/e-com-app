@@ -28,7 +28,7 @@
     overflow-y: auto;
 }
 .Auth-input{
-    width: 70%;
+    width: 60%;
     height: 2rem;
     margin-top: 3rem;
     margin-left: 7rem;
@@ -45,4 +45,18 @@
     border: none;
     color: white;
     font-size: 1rem;
+}
+.Auth-otp{
+    
+        width: 10%;
+        height: 2rem;
+        margin-top: 3rem;
+        margin-left: 7rem;
+        border-radius: 6px;
+        border: 2px solid ;
+        text-align: center;
+}
+.input-otp{
+    display: flex;
+    width: 98%;
 }
