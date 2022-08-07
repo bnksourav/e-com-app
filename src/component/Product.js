@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import"./product.css"
 
 function Product() {
+  
     const usedispatch=useDispatch();
     const product=useSelector((state)=>state.cart);
     const handleDecQty=(proObj)=>{
@@ -28,11 +29,11 @@ function Product() {
                 </div>
                 {
                   proObj.Qunt=='0'?<button className='Add-btn' onClick={()=>handleIncQty(proObj)}> Add </button>:
-                  <div><button className='Add-btn-empty'>
+                  <><button className='Add-btn-empty'>
                   <span style={{color:'black',fontSize:'1.2rem' ,cursor:'pointer'}}  onClick={()=>handleDecQty(proObj)}>-</span>
                   {proObj.Qunt}
                   <span style={{color:'black',fontSize:'1.2rem',cursor:'pointer'}} onClick={()=>handleIncQty(proObj)}>+</span></button>
-                  </div>
+                  </>
                 }
                 
               </div>

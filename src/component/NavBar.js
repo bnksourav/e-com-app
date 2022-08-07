@@ -14,6 +14,8 @@ function Navbar() {
     const [totalPrice, settotalPrice]=useState(0)
     const [totalItem, settotalItem] = useState(0)
     const [cardView, setcardView] = useState(true);
+    const [wide, setwide] = useState(window.innerWidth)
+
     useEffect(()=>{
         const fachProduct=(product)=>{
             let temoprice=0;
@@ -26,6 +28,10 @@ function Navbar() {
             settotalItem(tempItem);
         }
         fachProduct(product);
+        function handleResize() {
+          setwide(window.innerWidth)
+        }
+        window.addEventListener('resize', handleResize)
     },[product])
     const hendalAuth=(stat)=>{
       usedispatch(handleAuth(stat))
@@ -41,7 +47,7 @@ function Navbar() {
       {
         view.viewcard==true?<div className='bottom-nav-bar'>
         <button className='btn'><p>{totalItem} Items(s) <br/>Total Rs. {totalPrice}</p><span class="material-symbols-outlined" onClick={()=>handleCartV(false)}>expand_less</span></button>
-        <h3 onClick={()=>hendalAuth(true)}>Continue</h3>
+        <h3 onClick={()=>hendalAuth(true)}>{wide>600?'Continue':'Login'}</h3>
         <span  onClick={()=>()=>hendalAuth(true)} class="material-symbols-outlined">arrow_forward</span>
       </div>:<><div className='bottom-nav-bar'>
         <button className='btn'><p>{totalItem} Items(s) <br/>Total Rs. {totalPrice}</p><span class="material-symbols-outlined" onClick={()=>handleCartV(true)}>expand_more</span></button>
