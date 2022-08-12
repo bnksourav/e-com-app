@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/e-com-app/static/css/main.ee4b2106.css",
-    "main.js": "/e-com-app/static/js/main.0325e606.js",
-    "static/js/787.4fb5f8c8.chunk.js": "/e-com-app/static/js/787.4fb5f8c8.chunk.js",
-    "index.html": "/e-com-app/index.html",
-    "main.ee4b2106.css.map": "/e-com-app/static/css/main.ee4b2106.css.map",
-    "main.0325e606.js.map": "/e-com-app/static/js/main.0325e606.js.map",
-    "787.4fb5f8c8.chunk.js.map": "/e-com-app/static/js/787.4fb5f8c8.chunk.js.map"
+    "main.css": "/bnksourav.github.io/e-com-app/static/css/main.ee4b2106.css",
+    "main.js": "/bnksourav.github.io/e-com-app/static/js/main.b60682a3.js",
+    "static/js/787.4fb5f8c8.chunk.js": "/bnksourav.github.io/e-com-app/static/js/787.4fb5f8c8.chunk.js",
+    "index.html": "/bnksourav.github.io/e-com-app/index.html",
+    "main.ee4b2106.css.map": "/bnksourav.github.io/e-com-app/static/css/main.ee4b2106.css.map",
+    "main.b60682a3.js.map": "/bnksourav.github.io/e-com-app/static/js/main.b60682a3.js.map",
+    "787.4fb5f8c8.chunk.js.map": "/bnksourav.github.io/e-com-app/static/js/787.4fb5f8c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee4b2106.css",
-    "static/js/main.0325e606.js"
+    "static/js/main.b60682a3.js"
   ]
 }
