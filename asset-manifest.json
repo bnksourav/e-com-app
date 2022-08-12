@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/e-com-app/static/css/main.ee4b2106.css",
-    "main.js": "/e-com-app/static/js/main.b1d988be.js",
+    "main.js": "/e-com-app/static/js/main.0325e606.js",
     "static/js/787.4fb5f8c8.chunk.js": "/e-com-app/static/js/787.4fb5f8c8.chunk.js",
     "index.html": "/e-com-app/index.html",
     "main.ee4b2106.css.map": "/e-com-app/static/css/main.ee4b2106.css.map",
-    "main.b1d988be.js.map": "/e-com-app/static/js/main.b1d988be.js.map",
+    "main.0325e606.js.map": "/e-com-app/static/js/main.0325e606.js.map",
     "787.4fb5f8c8.chunk.js.map": "/e-com-app/static/js/787.4fb5f8c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee4b2106.css",
-    "static/js/main.b1d988be.js"
+    "static/js/main.0325e606.js"
   ]
 }
